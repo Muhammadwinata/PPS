@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">winata</string>
+    <string name="nama">Nama</string>
+    <string name="nim">Nim</string>
+
+    <string-array name="kelas">
+        <item>--Pilih--</item>
+        <item>P1</item>
+        <item>P2</item>
+
+    </string-array>
 </resources>
