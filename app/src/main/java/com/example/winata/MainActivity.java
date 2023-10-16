@@ -40,8 +40,13 @@ public class MainActivity extends AppCompatActivity {
                         bundle.putString("keyNama", nama);
                         bundle.putString("keyNim",nim);
                         bundle.putString("keyProdi",prodi);
-                        Intent i = new Intent(MainActivity.this,baru5.)
+                        Intent i = new Intent(MainActivity.this,baru5.class);
+                        i.putExtras(bundle);
+                        startActivity(i);
                     }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    Toast.makeText(getApplication(),"ERROR, TRY AGAIN!", Toast.LENGTH_SHORT).show();
                 }
 
 
