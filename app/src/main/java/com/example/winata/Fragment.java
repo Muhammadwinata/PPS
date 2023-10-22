@@ -23,23 +23,23 @@ public class Fragment extends AppCompatActivity {
         btnFragment1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                loadFragment(new FirstFragment());
+//                loadFragment(new FirstFragment());
             }
         });
 
         btnFragment2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void  onClick(View view) {
-                loadFragment(new SecondFragment());
+//                loadFragment(new SecondFragment());
             }
         });
     }
 
-    private void loadFragment(Fragment fragment) {
-        FragmentManager manager = getSupportFragmentManager();
-        FragmentTransaction transaction = manager.beginTransaction();
-        transaction.replace(R.id.containerFragment, fragment);
-        transaction.commit();
-    }
+//    private void loadFragment(Fragment fragment) {
+//        FragmentManager manager = getSupportFragmentManager();
+//        FragmentTransaction transaction = manager.beginTransaction();
+//        transaction.replace(R.id.containerFragment, fragment);
+//        transaction.commit();
+//    }
 
 }
